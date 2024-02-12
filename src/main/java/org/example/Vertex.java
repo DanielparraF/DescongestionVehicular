@@ -13,11 +13,6 @@ public class Vertex {
         this.name = name;
     }
 
-    // Método getter para obtener el nombre del vértice
-    public String getName() {
-        return name;
-    }
-
     // Sobrescribe el método toString para obtener una representación legible del vértice
     @Override
     public String toString() {
